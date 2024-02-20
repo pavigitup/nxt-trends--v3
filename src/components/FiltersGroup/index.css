@@ -1,0 +1,49 @@
+.filters-group-container {
+  margin-top: 0px;
+}
+
+.rating-con {
+  display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px;
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+  color: #64748b;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.images {
+  height: 30px;
+  padding: 0px;
+  margin: 0px;
+  padding-right: 10px;
+}
+p {
+  font-size: 20px;
+}
+
+.filters {
+  margin: 0px;
+  padding: 10px 0px;
+  background-color: transparent;
+  border: none;
+  color: #64748b;
+  font-size: 18px;
+}
+.ratings {
+  height: 30px;
+}
